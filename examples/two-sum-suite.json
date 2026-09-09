@@ -1,0 +1,10 @@
+{
+  "test_cases": [
+    { "name": "basic", "stdin": "4 9\n2 7 11 15", "stdout": "0 1" },
+    { "name": "swapped", "stdin": "4 6\n3 2 4", "stdout": "1 2" },
+    { "name": "zeros", "stdin": "2 0\n0 0", "stdout": "0 1" },
+    { "name": "negatives", "stdin": "5 -8\n-3 -4 -5 -6 -7", "stdout": "0 2" },
+    { "name": "duplicates", "stdin": "3 6\n3 3 3", "stdout": "0 1" },
+    { "name": "large", "stdin": "8 15\n1 2 3 4 5 6 7 8", "stdout": "6 7" }
+  ]
+}
