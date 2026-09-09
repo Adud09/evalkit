@@ -1,10 +1,6 @@
 """Shared fixtures: tiny solutions and suites used across tests."""
 
-from pathlib import Path
-
 import pytest
-
-SOLUTIONS = Path(__file__).parent / "solutions"
 
 
 @pytest.fixture
