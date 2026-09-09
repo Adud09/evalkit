@@ -1,0 +1,23 @@
+[project]
+name = "evalkit"
+version = "0.1.0"
+description = "Deterministic, anti-cheat code evaluation harness — run submissions against hidden tests, detect overfitting, rank fairly."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Daniel Adaramoye" }]
+keywords = ["evaluation", "benchmark", "testing", "anti-cheat", "determinism"]
+dependencies = []
+
+[project.scripts]
+evalkit = "evalkit.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["evalkit"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
