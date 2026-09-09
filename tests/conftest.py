@@ -1,5 +1,7 @@
 """Shared fixtures: tiny solutions and suites used across tests."""
 
+from pathlib import Path
+
 import pytest
 
 
